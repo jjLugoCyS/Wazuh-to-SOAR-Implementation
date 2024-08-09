@@ -25,3 +25,5 @@ The Detection Lab project aimed to establish a controlled environment for simula
 1. On <a href="https://www.Draw.io">Draw.io</a> creat a diagram top map out how we want to build this out logically. Include the steps that are taken in a SOAR alert system, using colors to differentiate the actions taken at each step.<br>
 ![Wazuh and SOAR](https://github.com/user-attachments/assets/b8d5d560-6152-47aa-ba39-e9b026c0b8f9)<br>
 *Ref 1: Diagram*<br>
+2. Now start by installing Wazuh after setting up a VM on <a href="https://digitalocean.com/">Digital Ocean</a>.
+3. Install TheHive like we did Wazuh and make a new droplet for it.
