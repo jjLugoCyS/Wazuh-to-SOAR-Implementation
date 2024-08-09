@@ -59,4 +59,18 @@ The Detection Lab project aimed to establish a controlled environment for simula
 <br>11. Uncomment cluster.initial_master_nodes and delete node 2. Start elasticsearch<br>
 ![12  uncomment clusterinitial master nodes and delete node-2](https://github.com/user-attachments/assets/d5567fd1-d9f2-447b-8784-c044e235d2d0)<br>
 *Ref 13: Change cluster.initial_master_nodes*<br>
-<br>12. 
+<br>12. Change the ownershu[ to thehive path<br>
+![13  change ownership to thehive path](https://github.com/user-attachments/assets/f828de6d-7c58-44af-a708-d32e9c004f77)<br>
+*Ref 14: Change ownership*<br>
+<br>13. Now open thehive configuration file. Under database and index configuration change hostname to thehive public IP. Change cluster-name to the cluster that was put into Cassandra. Then under index.search change the hosname to thehive public IP. Finally under service configuration change application.baseUrl to thehive public IP and keep the 9000.{<br>
+![14  open thehive conf file](https://github.com/user-attachments/assets/a193e090-9930-4667-931d-96f5b4a73aa6)<br>
+*Ref 15: Open thehive conf*<br>
+![15  change hostname to thehive public IP under db and index config](https://github.com/user-attachments/assets/36f0607a-6edc-4f45-b701-0ecd1955b0b7)<br>
+*Ref 16: hostname to public IP*<br>
+![16  change cluser-name to your cassandra cluster name](https://github.com/user-attachments/assets/626e7643-bfb7-4901-8b8e-7a6188e24a7f)<br>
+*Ref 17: Change cluster-name*<br>
+![17  change index search hostname to thehive public IP](https://github.com/user-attachments/assets/a656ce36-986e-4182-9ce5-b25c5e9695f2)<br>
+*Ref 18: Change index.search*<br>
+![18  change app baseURL to public IP 9000 of thehive under service config](https://github.com/user-attachments/assets/b8bfdd3b-d553-4fa0-842b-93fc22b9213b)<br>
+*Ref 19: Change application.baseUrl*<br>
+<br>14. 
