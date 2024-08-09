@@ -73,4 +73,26 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 18: Change index.search*<br>
 ![18  change app baseURL to public IP 9000 of thehive under service config](https://github.com/user-attachments/assets/b8bfdd3b-d553-4fa0-842b-93fc22b9213b)<br>
 *Ref 19: Change application.baseUrl*<br>
-<br>14. 
+<br>14. Start and enable thehive.<br>
+![19  start and enable thehive](https://github.com/user-attachments/assets/93824e7b-dbb3-466c-b523-1eb289b4df4b)<br>
+*Ref 20: Start and enable thehive*<br>
+<br>15. After logging into Wazuh you'll see a No Agents message, click add agent. Click Windows. Enter the Wazuh server public IP. Assign an agent name.<br>
+![20  install agent by clicking add agent](https://github.com/user-attachments/assets/8b4684ab-8c58-4c30-99f8-d19f69b699a9)<br>
+*Ref 21: Add agent*<br>
+![21  click windows](https://github.com/user-attachments/assets/2f4e9f62-31a5-4106-b834-d6d55b19f5d1)<br>
+*Ref 22: Click windows*<br>
+![22  enter wazuh public IP in server add](https://github.com/user-attachments/assets/5dd70e45-bda5-4153-af49-730ac38f315d)<br>
+*Ref 23: Wazuh public IP*<br>
+![23 assign agent name](https://github.com/user-attachments/assets/97d017ad-cf4c-418d-b38d-f430e03fa178)<br>
+*Ref 24: Assign agent name*
+<br>16. In a windows 10 VM we copy and paste the output given to us by Wazuh.<br>
+![24  start wazuh and begin the agent](https://github.com/user-attachments/assets/a7959329-34da-4d30-811b-7f2f9d220847)<br>
+*Ref 25: Paste Wazuh commands*<br>
+<br>17. Enter "net start wazuh <and agentname>" and go back to wazuh in your browser, click security events and you will be presented with active agent screens.<br>
+![25  Agent connected and active](https://github.com/user-attachments/assets/ce1d036a-5d57-4b92-b207-9704f3348b99)<br>
+*Ref 26: Agent connected and active*<br>
+![26  agent active with 25](https://github.com/user-attachments/assets/2da42bd0-0d5c-4880-a94c-53207a1785f8)<br>
+*Ref 27: Agent active*<br>
+![27  Security events](https://github.com/user-attachments/assets/58db2e37-0d53-4473-9393-74805f9ed725)<br>
+*Ref 28: Security Events*
+<br>18.
