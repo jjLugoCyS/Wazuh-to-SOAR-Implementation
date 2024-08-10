@@ -110,4 +110,22 @@ The Detection Lab project aimed to establish a controlled environment for simula
 <br>20. Go to Wazuh dashboard, click events and search for sysmon events.<br>
 ![33  search sysmon events](https://github.com/user-attachments/assets/2cbb0952-ac59-4b7c-9072-d86b49ff3d16)<br>
 *Ref 34: Search sysmon events*<br>
-<br>21. 
+<br>21. Download mimikatz, but exclude the downloads path in windows security on your windows 10 VM exclusions first. Then exctract the mimikatz zip.<br>
+![34  Download folder exclusion](https://github.com/user-attachments/assets/1b6b39e6-905a-40e8-82d7-04b37fe48e51)<br>
+*Ref 35: Download folder exclusion*<br>
+<br>22. Open and adminstrator powershell and cd to mimikatz and run mimikatz.exe<br>
+![35  Run mimikatz](https://github.com/user-attachments/assets/b45419f0-d48a-4856-8135-fdcd6bdf14e5)<br>
+*Ref 36: Run mimikatz*<br>
+<br>23. Check the wazuh dashboard for any mimikatz events. Go to your wazuh server console and open the ossex.conf file. Set logall and logall_json to yes. Restart the wazuh manager<br>
+![36  ossec conf wazuh server](https://github.com/user-attachments/assets/00bea640-b30e-460b-a0ee-f627aab6f6ad)<br>
+*Ref 37: ossec.conf on wazuh server console*<br>
+![37  Set logall and logall_json to yes](https://github.com/user-attachments/assets/1ac011ba-3a00-48ec-b277-c143152fcadd)<br>
+*Ref 38: Set logall*<br>
+![38  restart wazuh manager](https://github.com/user-attachments/assets/67803ad2-3c30-4427-9943-af243aeeae27)<br>
+*Ref 39: Restart wazuh manager*
+<br>24. Open filebeat.yml. Change archives > enabled to true. Then restart the filebeat service.<br>
+![39  open filebeat yml](https://github.com/user-attachments/assets/a4330ac4-43a4-4711-98fa-fa18a40095ed)<br>
+*Ref 40: Open filebeat.yml*<br>
+![40  Change filebeat modules archives enabled to true](https://github.com/user-attachments/assets/0e79ed89-9824-4677-a843-d3fad197e480)<br>
+*Ref 41: archives > enabled*<br>
+<br>25. 
