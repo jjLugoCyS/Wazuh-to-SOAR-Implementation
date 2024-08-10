@@ -128,4 +128,18 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 40: Open filebeat.yml*<br>
 ![40  Change filebeat modules archives enabled to true](https://github.com/user-attachments/assets/0e79ed89-9824-4677-a843-d3fad197e480)<br>
 *Ref 41: archives > enabled*<br>
-<br>25. 
+<br>25. In the wazuh dashboard click the hamburger icon then stack management. Then click Index patterns. Click create index, name the index, click next, select timestamp from dropdown menu, click create index pattern. Head back to discover and select archives<br>
+![41  click stack management](https://github.com/user-attachments/assets/05d7ed4a-b2ae-4b94-9b5b-5aef4ce34beb)<br>
+*Ref 42: Stack mgmt.*<br>
+![42  Click index patterns](https://github.com/user-attachments/assets/31b75867-d788-437d-9a4e-5831a38b9728)<br>
+*Ref 43: Index patterns*<br>
+![43  Create new index](https://github.com/user-attachments/assets/e8c1df0a-ee6c-4588-97e1-61ee7e48b586)<br>
+*Ref 44: Create Index*<br>
+![44  Name the index](https://github.com/user-attachments/assets/a9a2966d-3d78-4f9b-914f-1009712acbbf)<br>
+*Ref 45: Name Index*<br>
+![45  Choose timestamp](https://github.com/user-attachments/assets/1c47cceb-2336-4e2b-9b43-417d5e66fd51)<br>
+*Ref 46: Choose timestamp*<br>
+<br>26. Search in the dashboard for mimikatz events. Find and expand a mimikatz event id 1.<br>
+![46  find and expand mimikatz event id 1](https://github.com/user-attachments/assets/a8458982-68d5-47e4-b5e7-ffa8a8056b30)<br>
+*Ref 47: Mimikatz event id 1*<br>
+<br>27. 
