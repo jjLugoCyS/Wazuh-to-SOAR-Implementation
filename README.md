@@ -142,4 +142,20 @@ The Detection Lab project aimed to establish a controlled environment for simula
 <br>26. Search in the dashboard for mimikatz events. Find and expand a mimikatz event id 1.<br>
 ![46  find and expand mimikatz event id 1](https://github.com/user-attachments/assets/a8458982-68d5-47e4-b5e7-ffa8a8056b30)<br>
 *Ref 47: Mimikatz event id 1*<br>
-<br>27. 
+<br>27. Click the home button, click dropdown, click management, then rules. Click manage rule files, search sysmon, click the eye icon next to sysmon_id_1.<br>
+![47  click dropdown then mgmt then rules](https://github.com/user-attachments/assets/f6d66881-0428-48b1-85ab-4a4c84ee831d)<br>
+*Ref 48: Mgmt then Rules*<br>
+![48 Click manage rule files](https://github.com/user-attachments/assets/a4ddd712-4a69-4e6f-b2e2-ba5c9ea51db4)<br>
+*Ref 49: Manage Rule Riles*<br>
+![49  Click sysmon id 1 eye icon](https://github.com/user-attachments/assets/85bb7491-8dbf-435f-b385-215128d9bb28)<br>
+*Ref 50: sysmon_id_1*<br>
+<br>28. Copy the list rule id, Go back and click custom rules. Click on the pencil icon to edit and paste the copied rule below the existing rule.<br>
+![50  Click custom rules button](https://github.com/user-attachments/assets/4ec5c6de-8e13-4af8-b94f-f1c6ecd0147f)<br>
+*Ref 51: Custom Rules Button*<br>
+![51  Click pencil icon to edit](https://github.com/user-attachments/assets/03197097-53c3-4fb6-8218-e19dc053a9a3)<br>
+*Ref 52: Pencil Icon*<br>
+<br>29. Change the rule id above 1000000, the level value to a higher level (because the higher the more important), filename to originalFileName(has to match exactly), the type you remove everything after (?i) and add mimikatz. Remove options no full log. Change description to something meaningful to you, and change mitre id (to prevent credential dumping). Using the original file name ensures the file is tracked and not bypassed.<br>
+![52  Change some rule sections](https://github.com/user-attachments/assets/1a360314-c6be-4bf8-b059-a8e6b0b3ae13)<br>
+*Ref 53: Rule Sections*<br>
+![53  Change description and mitre id](https://github.com/user-attachments/assets/95712600-46a0-49e6-90cb-28b79db74132)<br>
+*Ref 54: Dexcription and Mitre*<br>
