@@ -88,11 +88,26 @@ The Detection Lab project aimed to establish a controlled environment for simula
 <br>16. In a windows 10 VM we copy and paste the output given to us by Wazuh.<br>
 ![24  start wazuh and begin the agent](https://github.com/user-attachments/assets/a7959329-34da-4d30-811b-7f2f9d220847)<br>
 *Ref 25: Paste Wazuh commands*<br>
-<br>17. Enter "net start wazuh <and agentname>" and go back to wazuh in your browser, click security events and you will be presented with active agent screens.<br>
+<br>17. Enter "net start wazuh" and go back to wazuh in your browser, click security events and you will be presented with active agent screens.<br>
 ![25  Agent connected and active](https://github.com/user-attachments/assets/ce1d036a-5d57-4b92-b207-9704f3348b99)<br>
 *Ref 26: Agent connected and active*<br>
 ![26  agent active with 25](https://github.com/user-attachments/assets/2da42bd0-0d5c-4880-a94c-53207a1785f8)<br>
 *Ref 27: Agent active*<br>
 ![27  Security events](https://github.com/user-attachments/assets/58db2e37-0d53-4473-9393-74805f9ed725)<br>
 *Ref 28: Security Events*
-<br>18.
+<br>18. Navigate to C: drive, then program files(x86), and find ossec.conf to make a back up.<br>
+![28  ossec-backup](https://github.com/user-attachments/assets/cadea236-d4c8-47e4-8ca6-0d5012bead30)<br>
+*Ref 29: ossec-backup.conf*<br>
+<br>19. In the original ossec file copy and paste onse local file tag and change the the location to the sysmon channel name found in event viewer, right click operational file under system folder to select properties and find the name. Paste om <localfile>, remove other <localfiles> tags except for active response. Always open services and restrart the service you configured (wazuh).<br>
+![29 Event viewer sysmon operational](https://github.com/user-attachments/assets/707b70e9-9b1d-42b4-bb98-87599daffcbe)<br>
+*Ref 30: Event viewer > sysmon> operational*<br>
+![30  sysmon poroperties full name](https://github.com/user-attachments/assets/d17ee8f8-ebe0-4e2f-9126-a4e3aa0d5970)<br>
+*Ref 31: Sysmon properties full name*<br>
+![31  localfile location sysmon](https://github.com/user-attachments/assets/5d86227d-ad10-4f34-b516-abb46a33dfe4)<br>
+*Ref 32: localfile location sysmon*<br>
+![32  leave sysmon and active response](https://github.com/user-attachments/assets/c00f2f10-5123-489e-9857-c762f3e7453d)<br>
+*Ref 33: sysmon and active response*<br>
+<br>20. Go to Wazuh dashboard, click events and search for sysmon events.<br>
+![33  search sysmon events](https://github.com/user-attachments/assets/2cbb0952-ac59-4b7c-9072-d86b49ff3d16)<br>
+*Ref 34: Search sysmon events*<br>
+<br>21. 
