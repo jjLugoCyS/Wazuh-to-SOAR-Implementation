@@ -158,4 +158,4 @@ The Detection Lab project aimed to establish a controlled environment for simula
 ![52  Change some rule sections](https://github.com/user-attachments/assets/1a360314-c6be-4bf8-b059-a8e6b0b3ae13)<br>
 *Ref 53: Rule Sections*<br>
 ![53  Change description and mitre id](https://github.com/user-attachments/assets/95712600-46a0-49e6-90cb-28b79db74132)<br>
-*Ref 54: Dexcription and Mitre*<br>
+*Ref 54: Description and Mitre*<br>
