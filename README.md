@@ -218,5 +218,6 @@ The Detection Lab project aimed to establish a controlled environment for simula
 ![77  shuffle email parameters](https://github.com/user-attachments/assets/59c2425c-140b-4922-b255-36e3626ce4ee)<br>
 *Ref 78: Email app parameters*<br>
 ![78  Alert email](https://github.com/user-attachments/assets/4bd9780c-0507-4475-a7ef-4dc6d97065c1)<br>
+![email alert b](https://github.com/user-attachments/assets/50894f10-247b-46cd-b5fd-ffa7bd0e7df8)<br>
 *Ref 79: What alert in email looks like*<br>
 <br>40. In shuffle add another http app, fill in: Name, Action, Statement. Configure wazuh firewall rule to allow all inbound traffic to port 55000<br>
