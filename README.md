@@ -1,25 +1,33 @@
 # Wazuh to SOAR Implementation
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+By implementing the integration of Wazuh with a SOAR platform, the aim is to enhance automated threat detection, streamline incident response, and improve overall security posture through real-time threat intelligence and efficient workflows.
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Integration of Wazuh with SOAR platforms for enhanced security operations.
+- Automated threat detection and response configuration.
+- Streamlining incident response workflows using SOAR capabilities.
+- Real-time threat intelligence analysis and application.
+- Improving security posture through the orchestration of security tools.
+- Troubleshooting integration issues and optimizing system performance.
+- Developing and implementing automated security playbooks.
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Wazuh: Open-source security monitoring platform used for threat detection, integrity monitoring, and incident response.
+- SOAR Platform: Security Orchestration, Automation, and Response platform to automate and streamline security operations.
+- APIs: Used for connecting Wazuh with the SOAR platform to automate workflows and incident responses.
+- Shuffle.io: An open-source Security Orchestration, Automation, and Response (SOAR) platform for stream lined automation.
+- theHive: An open-source platform that helps in the investigation and response to security incidents.
+- DigitalOcean: Cloud server hosting.
+- Virtualbox: Windows 10, Ubuntu VMs
+- mimikatz: Hacker tool to compromis systems. Used for testing.
+- Draw.io: Map out logical architecture.
+
 
 ## Steps
 1. On <a href="https://www.Draw.io">Draw.io</a> creat a diagram top map out how we want to build this out logically. Include the steps that are taken in a SOAR alert system, using colors to differentiate the actions taken at each step.<br>
