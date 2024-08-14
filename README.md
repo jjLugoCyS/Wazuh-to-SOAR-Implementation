@@ -169,3 +169,22 @@ The Detection Lab project aimed to establish a controlled environment for simula
 <br>31. Go back to the wazuh server console and open the ossec.conf file and paste in the integration tag in it (it's found on the wazuh page). Paste the webhook URI (add the space at the end). Change the level tag to rule_id. Restart both the wazuh-manager.service and mimikatz<br>
 ![57  ossec conf shuffle integration](https://github.com/user-attachments/assets/3a77b891-df21-48b7-a061-cbc50d5e6c2d)<br>
 *Ref 58: ossec.conf integration*<br>
+<br>32. Going back to <a href= "https://www.shuffler.io">shuffle.io</a> and click start. Click test workflow. Then select the webhook in workflows and select execution arguments > expand window.<br>
+![58  Expand execution arguments](https://github.com/user-attachments/assets/f0a3f84d-af18-4e1f-969b-9b144aa9fa81)<br>
+*Ref 59: Expand execution arguments*<br>
+<br>33. Click on change me and under find actions change it to regex capture group. In input data select execution argument and select your hash. Enter regex and save your workflow, rerun the workflow under execution and expand results<br>
+![59  Shuffle tools](https://github.com/user-attachments/assets/5c85cefd-a33d-4522-99e0-14d71bd3e24e)<br>
+*Ref 60: Change me Regex*<br>
+![60  Expand results](https://github.com/user-attachments/assets/a0d342a4-b49f-4607-b998-108cce9761a8)<br>
+*Ref 61: Expand results*<br>
+<br>34. Create a virustotal account and copy your API key to authenticate it. In shuffle search for the virustotal app and activate it. Drag and drop virustotal over to the workflow. Click on virustotal app in workflow and in find actions select hash report. Click authenticate virustotal, paste in your API key then click submit. Under the hash section select regex output and select list. Save workflow and click show executions, click middle workflow, click rerun workflow, expand virustotal output and find last_analysis_stats.<br>
+![61  Authenticate virustotal](https://github.com/user-attachments/assets/b6ecbd41-c12f-4287-8088-d5611e36835e)<br>
+*Ref 62: Authenticate virustotal*<br>
+![62  Virustotal settings](https://github.com/user-attachments/assets/b80be093-e12b-4538-9122-63781d184b2b)<br>
+*Ref 63: Virustotal settings*<br>
+![63  Virustotal output](https://github.com/user-attachments/assets/8c34faa6-c707-495b-a4e8-506c27d81498)<br>
+*Ref 64: Virustotal output*<br>
+![64  Last_analysis+stats malicious](https://github.com/user-attachments/assets/11177089-d5ec-4136-9820-10b4d01a9e9b)<br>
+*Ref 65: last_analysis_stats amd malicious*<br>
+<br>35. In shuffle apps search for thehive. Click on theHive to activate, drag and drop it into workflows.
+<br>36. 
