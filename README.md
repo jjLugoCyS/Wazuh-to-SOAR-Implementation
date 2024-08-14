@@ -159,3 +159,13 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 53: Rule Sections*<br>
 ![53  Change description and mitre id](https://github.com/user-attachments/assets/95712600-46a0-49e6-90cb-28b79db74132)<br>
 *Ref 54: Description and Mitre*<br>
+<br>30. Sign into shuffle and create a new workflow. Click on triggers > webhook and drag and drop. Copy the webhook URI. Click on change me, make syre the action is "repeat back to me" then click the "+" and execution argument.<br>
+![54  New workflow](https://github.com/user-attachments/assets/c0552920-8ae8-4ff7-8efd-76394af62653)<br>
+*Ref 55: New workflow*<br>
+![55  Webhook trigger](https://github.com/user-attachments/assets/ef4b6c18-8f3e-4fc7-9dae-a04ec4ca0b6a)<br>
+*Ref 56: Webhook trigger*<br>
+![56  Actions and plus sign](https://github.com/user-attachments/assets/9e7d2076-5374-4d6f-a7f0-6847a90f1d7f)<br>
+*Ref 57: + and arguments*<br>
+<br>31. Go back to the wazuh server console and open the ossec.conf file and paste in the integration tag in it (it's found on the wazuh page). Paste the webhook URI (add the space at the end). Change the level tag to rule_id. Restart both the wazuh-manager.service and mimikatz<br>
+![57  ossec conf shuffle integration](https://github.com/user-attachments/assets/3a77b891-df21-48b7-a061-cbc50d5e6c2d)<br>
+*Ref 58: ossec.conf integration*<br>
