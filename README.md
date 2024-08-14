@@ -187,4 +187,26 @@ The Detection Lab project aimed to establish a controlled environment for simula
 ![64  Last_analysis+stats malicious](https://github.com/user-attachments/assets/11177089-d5ec-4136-9820-10b4d01a9e9b)<br>
 *Ref 65: last_analysis_stats amd malicious*<br>
 <br>35. In shuffle apps search for thehive. Click on theHive to activate, drag and drop it into workflows.
-<br>36. 
+<br>36. Head over to theHive dashboard and create a new org. Click into your org and add 2 new users. 1st user leave type normal, create login profile: analyst and save. For the 2nd user the type is service, create login profile: analyst and save. Create password for first account and create API for 2nd account. Copy and save API for later, logout.<br>
+![65  Click plus button to create new org](https://github.com/user-attachments/assets/c9c2ef8c-b294-4879-bdb4-50801975b65c)<br>
+*Ref 66: Click + button*<br>
+![66  New org in theHive](https://github.com/user-attachments/assets/4e04e556-92fd-4327-abd7-52273e2a5def)<br>
+*Ref 67: New org in theHive*<br>
+![67  New org screen](https://github.com/user-attachments/assets/a6fea42e-583b-4df5-be37-6c9f58bb0852)<br>
+*Ref 68: New org screen*<br>
+![68  First user](https://github.com/user-attachments/assets/c79d5348-93d4-44ef-ae60-174dc8649edc)<br>
+*Ref 69: First user*<br>
+![69  Second user](https://github.com/user-attachments/assets/f3a934b2-7168-4f3b-9158-12d61e749c28)<br>
+*Ref 70: Second user*<br>
+![70  first account password](https://github.com/user-attachments/assets/8fc4f930-a0b1-463c-b63f-492fb20a81c1)<br>
+*Ref 71: First account password*<br>
+![71  Creat 2nd uaer api](https://github.com/user-attachments/assets/b7ad1db8-7134-4833-9ed6-fcd58c139a4f)<br>
+*Ref 72: Second user api*<br>
+<br>37. Login into theHive 1st account. Configure shuffle to work with theHive by clicking theHive in shuffle and click the + next to authenticate and paste the API key from theHive into shuffle. In URL put public theHive server instance IP and port. Choose screate alert in find actions. Connect virustotal to theHive.**At the time of writing the shuffle devs changed it so that instead of neat input boxes for parameters, you have to put it in the body of the json. You also have to cut and paste the parameters from the + section to the specific spot the json parameters fit. You also have to validate the json. It took me quite a bit to figure all of this out, so i put this here to save confusion**<br>
+![72  theHive into shuffle authenticate](https://github.com/user-attachments/assets/a9a87b81-2877-41da-b6c4-cfbcec2e567d)<br>
+*Ref 73: theHive, shuffle authenticate*<br>
+![73  theHive shuffle app body action](https://github.com/user-attachments/assets/af33734f-0446-4a95-8321-ea4484ee481f)<br>
+*Ref 74: Body action*<br>
+![74  theHive body complete](https://github.com/user-attachments/assets/08f53632-580b-4b26-809c-dc58d74aa973)<br>
+*Ref 75: Validate json*<br>
+
