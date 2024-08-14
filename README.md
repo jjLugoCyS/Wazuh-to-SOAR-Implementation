@@ -221,3 +221,21 @@ The Detection Lab project aimed to establish a controlled environment for simula
 ![email alert b](https://github.com/user-attachments/assets/50894f10-247b-46cd-b5fd-ffa7bd0e7df8)<br>
 *Ref 79: What alert in email looks like*<br>
 <br>40. In shuffle add another http app, fill in: Name, Action, Statement. Configure wazuh firewall rule to allow all inbound traffic to port 55000<br>
+<br>41. Find the wazuh app in shuffle and activate, drag and drop it into the workflow. Set the find action in the wazuh app to run command. Rebuild the workflow: webhook -> Get-API -> Virustotal -> Wazuh<br>
+![79  workflow rebuilt](https://github.com/user-attachments/assets/61bb873f-3dac-4379-a8d6-25e33d5ca217)<br>
+*Ref 80: Rebuilt workflow*<br>
+<br>42. Set the Apikey to Get-Api in the wazuh app. Change the Url localhost to the public IP of the wazuh server IP.<br>
+<br>43. In the wazuh dashboard navigate to Agents after you make a new agent in Ubuntu.<br>
+![80  Wazuh dash with ubuntu agent](https://github.com/user-attachments/assets/647db3b5-1f02-40b5-b681-642cb8235b64)<br>
+*Ref 81: Agent list*<br>
+<br>44. In shuffle click on show executions, show execution arguments to see agents id. Click on wazuh under agents list. Click the + sign > arguments > find agent id. Set wait for complete to true.<br>
+<br>45. On wazuh manager console open the ossec.conf file. Look for active respone and uncomment active-response tag at end of file. Replace inner text with a command tag that uses firewall-drop. Save and restart wazuh manager. Cd to /var/log/ossec/bin. Go into agent_control -L to verify command name. Test it with ./agent_control -b 8.8.8.8 -f firewall-drop0 -u 002 after running a ping on your unbuntu machine. On the ubuntu machine use iptables --list to make sure the dropped responses worked. On the wazuh manager cat active-responses.log after you cd back into the logs directory.<br>
+![81  Wazuh manager active response](https://github.com/user-attachments/assets/c919ab23-988d-4101-876c-b9c75f74b047)<br>
+*Ref 82: Active respone*<br>
+![82  Wazuh manager firewall-drop script](https://github.com/user-attachments/assets/83100864-6c60-4619-9384-a057bef617b8)<br>
+*Ref 83: firewall-drop script*<br>
+![83  Verify response name](https://github.com/user-attachments/assets/95cb37f8-ca41-40ea-b6b9-9812f8626fa5)<br>
+*Ref 84: Verify response name*<br>
+![84  Active-reponses log](https://github.com/user-attachments/assets/f902cb68-b9f3-49af-bd5c-24d4606f04c6)<br>
+*Ref 85: Active-Responses log*<br>
+<br>46. 
