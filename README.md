@@ -209,4 +209,14 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 74: Body action*<br>
 ![74  theHive body complete](https://github.com/user-attachments/assets/08f53632-580b-4b26-809c-dc58d74aa973)<br>
 *Ref 75: Validate json*<br>
-
+<br>38. Save the workflow and rerun. Go to theHive dashboard and check the alert.<br>
+![75  theHive alert](https://github.com/user-attachments/assets/ce0dfb69-b757-4239-bc8f-5697e6639be4)<br>
+*Ref 76: theHive alert*<br>
+<br>39. On shuffle find and activate email app, fill in: Recipient, Subject, and Body<br>
+![76  Email app in workflow](https://github.com/user-attachments/assets/682b918f-b9c5-40be-9e18-c63c091b2359)
+*Ref 77: Email app in workflow*<br>
+![77  shuffle email parameters](https://github.com/user-attachments/assets/59c2425c-140b-4922-b255-36e3626ce4ee)<br>
+*Ref 78: Email app parameters*<br>
+![78  Alert email](https://github.com/user-attachments/assets/4bd9780c-0507-4475-a7ef-4dc6d97065c1)<br>
+*Ref 79: What alert in email looks like*<br>
+<br>40. In shuffle add another http app, fill in: Name, Action, Statement. Configure wazuh firewall rule to allow all inbound traffic to port 55000<br>
