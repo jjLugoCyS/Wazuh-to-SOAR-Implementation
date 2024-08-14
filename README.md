@@ -238,4 +238,13 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 84: Verify response name*<br>
 ![84  Active-reponses log](https://github.com/user-attachments/assets/f902cb68-b9f3-49af-bd5c-24d4606f04c6)<br>
 *Ref 85: Active-Responses log*<br>
-<br>46. 
+<br>46. On shuffle fill in the command section in the wazuh app with the active response criteria. [8.8.8.8] in the arguments section. Fill in the Apikey of the wazuh api server. Save and rerun.
+![85  Firewall-drop0 command](https://github.com/user-attachments/assets/c372fe7b-3989-4fec-92a9-bbd1ca443b6f)<br>
+*Ref 86: Firewall-drop0 command*<br>
+![86, firewall-drop and arguments](https://github.com/user-attachments/assets/f7057e5f-0463-44a1-9a94-250e675a3c68)<br>
+*Ref 87: firewall-drop0 and arguments*<br>
+![87  Wazuh workflow](https://github.com/user-attachments/assets/59737b49-ea88-4444-a5d1-332eeb137030)<br>
+*Ref 88: Result of execution run*<br>
+<br>47. We have now set up a SOAR system that alerts us when and incident is happening on one of our host systems. We set it up to be able to pass on a report to an analyst telling who? what? when? and where? an incident is happening on a machine.<br>
+![88  Ubuntu agent wazuh](https://github.com/user-attachments/assets/89072496-42b8-4117-ab21-79539857a980)<br>
+*Ref 89: Wazuh agent*
